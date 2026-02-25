@@ -97,7 +97,7 @@ name: antiX自动部署
 steps:
   - name: 下载安装脚本
     type: download
-    url: "https://raw.githubusercontent.com/your-repo/antix-auto-reinstall/main/antix-auto-reinstall.sh"
+    url: "https://raw.githubusercontent.com/qdmz/antix-auto-reinstall/main/antix-auto-reinstall.sh"
     dest: "/tmp/"
     
   - name: 执行安装
